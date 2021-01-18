@@ -53,6 +53,7 @@ querydsl{
 }
 
 
+
 compileQuerydsl{
 	options.annotationProcessorPath = configurations.querydsl
 }

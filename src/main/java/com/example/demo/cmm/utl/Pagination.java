@@ -16,6 +16,7 @@ public class Pagination {
 	public final int BLOCK_SIZE = 5;
 	private String tname;
 	private boolean existPrev, existNext;
+	public Pagination(){}
 	// SQL 방식
 	public Pagination(String tname, int pageSize, int pageNum, int count) {
 		this.tname = tname;
